@@ -1,0 +1,23 @@
+.tasks-container
+{
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-header
+{
+    height: 80px;
+    position: relative;
+    background: linear-gradient(to right, #4e9ecf, #6bd5f8);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.task-card
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

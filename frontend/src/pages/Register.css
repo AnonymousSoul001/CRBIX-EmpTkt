@@ -1,0 +1,99 @@
+.register-container {
+  background: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-header {
+  height: 80px;
+  position: relative;
+  background: linear-gradient(to right, #4e9ecf, #6bd5f8);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.power-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.register-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  padding: 20px;
+}
+
+.register-image img {
+  width: 300px;
+  height: auto;
+  float: left;
+}
+
+.register-form {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 450px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(145deg, #80d0ff, #4ca0c9);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.register-form input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  margin: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.register-form button {
+  margin-top: 10px;
+  background: linear-gradient(to right, #4e9ecf, #6bd5f8);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.register-form select {
+  margin-top: 10px;
+  background: linear-gradient(to right, #4e9ecf, #6bd5f8);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.register-form option {
+ color: black;
+}   
+
+.register-form button:hover {
+  background: linear-gradient(to right, #3b84b3, #5ab9d6);
+}
